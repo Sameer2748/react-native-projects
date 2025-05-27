@@ -49,7 +49,7 @@ const Create = () => {
         : Math.abs(parseFloat(price));
 
       const response = await fetch(
-        "http://localhost:5001/api/transactions",
+        "https://react-native-projects.onrender.com/api/transactions",
         {
           method: "POST",
           headers: {
